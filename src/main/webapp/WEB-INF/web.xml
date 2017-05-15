@@ -1,84 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>CrearListar</servlet-name>
-        <servlet-class>Controlador.CrearListar</servlet-class>
+        <servlet-name>CrearListarA</servlet-name>
+        <servlet-class>ControladorA.CrearListarA</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>ListarPorArea</servlet-name>
-        <servlet-class>Controlador.ListarPorArea</servlet-class>
+        <servlet-name>ListarPorAreaA</servlet-name>
+        <servlet-class>ControladorA.ListarPorAreaA</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>BuscarElemento</servlet-name>
-        <servlet-class>Controlador.BuscarElemento</servlet-class>
+        <servlet-name>BuscarElementoA</servlet-name>
+        <servlet-class>ControladorA.BuscarElementoA</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>BorrarElemento</servlet-name>
-        <servlet-class>Controlador.BorrarElemento</servlet-class>
+        <servlet-name>BorrarElementoA</servlet-name>
+        <servlet-class>ControladorA.BorrarElementoA</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>NuevoPrestamo</servlet-name>
-        <servlet-class>Controlador.NuevoPrestamo</servlet-class>
+        <servlet-name>NuevoPrestamoA</servlet-name>
+        <servlet-class>ControladorA.NuevoPrestamoA</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>Modificar</servlet-name>
-        <servlet-class>Controlador.Modificar</servlet-class>
+        <servlet-name>ModificarA</servlet-name>
+        <servlet-class>ControladorA.ModificarA</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>Devolucion</servlet-name>
-        <servlet-class>Controlador.Devolucion</servlet-class>
+        <servlet-name>DevolucionA</servlet-name>
+        <servlet-class>ControladorA.DevolucionA</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>ListarPrestamos</servlet-name>
-        <servlet-class>Controlador.ListarPrestamos</servlet-class>
+        <servlet-name>ListarPrestamosA</servlet-name>
+        <servlet-class>ControladorA.ListarPrestamosA</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>PazSalvo</servlet-name>
-        <servlet-class>Controlador.PazSalvo</servlet-class>
+        <servlet-name>PazSalvoA</servlet-name>
+        <servlet-class>ControladorA.PazSalvoA</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>BarServlet</servlet-name>
-        <servlet-class>Controlador.BarServlet</servlet-class>
+        <servlet-name>BarServletA</servlet-name>
+        <servlet-class>ControladorA.BarServletA</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>CrearListar</servlet-name>
-        <url-pattern>/CrearListar</url-pattern>
+        <servlet-name>CrearListarA</servlet-name>
+        <url-pattern>/CrearListarA</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>ListarPorArea</servlet-name>
-        <url-pattern>/ListarPorArea</url-pattern>
+        <servlet-name>ListarPorAreaA</servlet-name>
+        <url-pattern>/ListarPorAreaA</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>BuscarElemento</servlet-name>
-        <url-pattern>/BuscarElemento</url-pattern>
+        <servlet-name>BuscarElementoA</servlet-name>
+        <url-pattern>/BuscarElementoA</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>BorrarElemento</servlet-name>
-        <url-pattern>/BorrarElemento</url-pattern>
+        <servlet-name>BorrarElementoA</servlet-name>
+        <url-pattern>/BorrarElementoA</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>NuevoPrestamo</servlet-name>
-        <url-pattern>/NuevoPrestamo</url-pattern>
+        <servlet-name>NuevoPrestamoA</servlet-name>
+        <url-pattern>/NuevoPrestamoA</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>Modificar</servlet-name>
-        <url-pattern>/Modificar</url-pattern>
+        <servlet-name>ModificarA</servlet-name>
+        <url-pattern>/ModificarA</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>Devolucion</servlet-name>
-        <url-pattern>/Devolucion</url-pattern>
+        <servlet-name>DevolucionA</servlet-name>
+        <url-pattern>/DevolucionA</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>ListarPrestamos</servlet-name>
-        <url-pattern>/ListarPrestamos</url-pattern>
+        <servlet-name>ListarPrestamosA</servlet-name>
+        <url-pattern>/ListarPrestamosA</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>PazSalvo</servlet-name>
-        <url-pattern>/PazSalvo</url-pattern>
+        <servlet-name>PazSalvoA</servlet-name>
+        <url-pattern>/PazSalvoA</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>BarServlet</servlet-name>
-        <url-pattern>/BarServlet</url-pattern>
+        <servlet-name>BarServletA</servlet-name>
+        <url-pattern>/BarServletA</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CrearListarU</servlet-name>
+        <servlet-class>Controlador.CrearListarU</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListarPorAreaU</servlet-name>
+        <servlet-class>Controlador.ListarPorAreaU</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ValidarUsuarioU</servlet-name>
+        <servlet-class>Controlador.ValidarUsuarioU</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BuscarElementoU</servlet-name>
+        <servlet-class>Controlador.BuscarElementoU</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CambiarClaveU</servlet-name>
+        <servlet-class>Controlador.CambiarClaveU</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EstadoU</servlet-name>
+        <servlet-class>Controlador.EstadoU</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HistorialU</servlet-name>
+        <servlet-class>Controlador.HistorialU</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ValidarUsuarioU</servlet-name>
+        <url-pattern>/ValidarUsuarioU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CrearListarU</servlet-name>
+        <url-pattern>/CrearListarU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BuscarElementoU</servlet-name>
+        <url-pattern>/BuscarElementoU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListarPorAreaU</servlet-name>
+        <url-pattern>/ListarPorAreaU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CambiarClaveU</servlet-name>
+        <url-pattern>/CambiarClaveU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EstadoU</servlet-name>
+        <url-pattern>/EstadoU</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HistorialU</servlet-name>
+        <url-pattern>/HistorialU</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
