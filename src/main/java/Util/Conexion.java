@@ -1,9 +1,9 @@
-package UtilU;
+package Util;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.sql.*;
 
-public class ConexionU {
+public class Conexion {
 	
 	private static Connection CONEXION=null;
     	public static Connection getConnection() throws URISyntaxException{

@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import ModeloA.ElementoA;
-import UtilA.Conexion;
+import Util.Conexion;
 import java.net.URISyntaxException;
 import java.util.logging.Level;
 import java.util.logging.Logger;

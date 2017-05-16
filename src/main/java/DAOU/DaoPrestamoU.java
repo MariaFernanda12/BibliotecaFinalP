@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import ModeloU.PrestamoU;
-import UtilU.ConexionU;
+import Util.Conexion;
 import java.net.URISyntaxException;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -15,7 +15,7 @@ public class DaoPrestamoU {
     private Connection conexion;
 
     public DaoPrestamoU() throws URISyntaxException {
-        this.conexion= ConexionU.getConnection();
+        this.conexion= Conexion.getConnection();
     }
 
     public boolean restarInventario(int etiqueta) {

@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import ModeloU.ElementoU;
-import UtilU.ConexionU;
+import Util.Conexion;
 import java.net.URISyntaxException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -17,7 +17,7 @@ public class DaoElementosU {
     private Connection conexion;
 
     public DaoElementosU() throws URISyntaxException {
-        this.conexion= ConexionU.getConnection();
+        this.conexion= Conexion.getConnection();
     }
 
     public boolean insertar(ElementoU elm) {

@@ -6,7 +6,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import ModeloA.PrestamoA;
-import UtilA.Conexion;
+import Util.Conexion;
 import java.net.URISyntaxException;
 import java.sql.ResultSet;
 import java.sql.Statement;

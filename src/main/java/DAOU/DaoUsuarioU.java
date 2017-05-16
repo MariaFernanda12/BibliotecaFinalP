@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import ModeloU.SolicitanteU;
-import UtilU.ConexionU;
+import Util.Conexion;
 import java.net.URISyntaxException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -19,7 +19,7 @@ public class DaoUsuarioU {
 
     public DaoUsuarioU() throws URISyntaxException {
         
-        this.conexion= ConexionU.getConnection();
+        this.conexion= Conexion.getConnection();
         
     }
 
